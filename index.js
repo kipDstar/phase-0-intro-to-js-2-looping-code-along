@@ -1,4 +1,4 @@
-// Code your solutions in this file
+// similar solution to phase-o-looping lab
 for (let age = 30; age < 40; age ++) {
     console.log(`I'm ${age} years old. Happy birrthday to me!`);
     debugger;
@@ -13,6 +13,7 @@ function wrapGifts(gifts) {
     return gifts;
 }
 wrapGifts(gifts);
+
 function writeCards(names, event) {
     let thankYouCards = [];
     for (let i = 0; i < names.length; i++) {
